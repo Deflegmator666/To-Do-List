@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  padding-top: 300px;
+  min-height: 100vh;
+  background: linear-gradient(60deg, #2581ac, #000000);
+  padding-bottom: 20px;
+}
+
+.status__do {
+  font-size: 20px;
+  height: 36px;
+  box-shadow: 7px 8px 7px black;
+  background-color: azure;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 350px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 150px;
+  border: 2px solid black;
+}
+
+.enviroment {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  border: 2px solid black;
+  background-color: azure;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 7px 8px 7px black;
+}
+
+#inputBtn {
+  background-color: azure;
+  font-size: 20px;
+  height: 56px;
+  width: 116px;
+  border-radius: 5px;
+  box-shadow: 7px 8px 7px black;
+  padding: 3px;
+  cursor: pointer;
+}
+
+#inputBtn:active {
+  box-shadow: 2px 4px 2px black;
+}
+
+button:active {
+  box-shadow: 2px 4px 2px black;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 0 auto;
+  font-size: 45px;
+  width: 60vw;
+}
+
+.inputBoxDelete {
+  height: 42px;
+  width: 50px;
+  background-color: rgb(194, 47, 47);
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
+  box-shadow: 7px 8px 7px black;
+}
+
+.btnsContainer {
+  display: flex;
+  align-items: center;
+}
+
+.inputCheck {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.itemWords {
+  word-break: break-all;
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
+
+.Values_words {
+  word-break: break-all;
+}
+
+.inputBox {
+  background-color: azure;
+  font-size: 45px;
+  border-radius: 5px;
+  box-shadow: 7px 8px 7px black;
+}
+
+.icon__edit {
+  height: 52px;
+  width: 52px;
+  background-color: azure;
+  cursor: pointer;
+}
+
+.darkLayerWindow {
+  position: fixed;
+  top: 0%;
+  min-width: 100%;
+  min-height: 100%;
+  background-color: #000000;
+  opacity: 70%;
+  z-index: 3;
+}
+
+.modalWindow {
+  position: fixed;
+  top: 30%;
+  left: 30%;
+  background: linear-gradient(2deg, #2581ac, #000000);
+  z-index: 5;
+  border-radius: 5px;
+  box-shadow: 7px 8px 7px black;
+}
+
+.innerDivModal {
+  width: 700px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.inputWindowModal {
+  background-color: azure;
+  font-size: 45px;
+  border-radius: 5px;
+  box-shadow: 7px 8px 7px black;
+}
+
+.btnContainer {
+  display: flex;
+  gap: 200px;
+}
+
+.innerBtnOk {
+  background-color: azure;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  box-shadow: 7px 8px 7px black;
+  cursor: pointer;
+}
+
+.innerBtnCancel {
+  background-color: azure;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  box-shadow: 7px 8px 7px black;
+  cursor: pointer;
+}
